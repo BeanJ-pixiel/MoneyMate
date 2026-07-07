@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';       
-import 'package:du_an/screens/dashboard_screen/dashboard_screen.dart';
+import 'package:du_an/screens/dashboard/dashboard_screen.dart';
 import 'package:du_an/screens/transactions/transactions_screen.dart';
 import 'package:du_an/screens/budgets/budgets_screen.dart';
 import 'package:du_an/screens/goals/goals_screen.dart';

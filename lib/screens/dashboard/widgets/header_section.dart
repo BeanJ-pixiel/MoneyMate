@@ -1,3 +1,4 @@
+import 'package:du_an/data/fake/fake_data.dart';
 import 'package:flutter/material.dart';
 
 class header_section extends StatelessWidget {
@@ -22,21 +23,21 @@ class header_section extends StatelessWidget {
           ),
 
           const SizedBox(width: 12),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                const Text(
                   "Good morning",
                   style: TextStyle(
                     color: Colors.grey,
                     fontSize: 13,
                   ),
                 ),
-                SizedBox(height: 2),
+                const SizedBox(height: 2),
                 Text(
-                  "Jordan Davis",
-                  style: TextStyle(
+                  currentUser.name,
+                  style: const TextStyle(
                     color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
